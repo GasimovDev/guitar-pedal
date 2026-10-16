@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "pedal")(type "KiCad")(uri "${KIPRJMOD}/pedal.kicad_sym")(options "")(descr "Pedal project symbols"))
+)

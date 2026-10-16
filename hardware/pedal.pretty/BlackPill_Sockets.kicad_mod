@@ -1,0 +1,631 @@
+(footprint "BlackPill_Sockets"
+  (version 20221018)
+  (generator pedal_gen)
+  (layer "F.Cu")
+  (descr "WeAct Black Pill (STM32F4x1) on two 1x20 2.54 mm sockets, rows 15.24 mm apart")
+  (attr through_hole)
+  (fp_text reference "REF**"
+    (at 24.13 -4.5)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (fp_text value "BlackPill"
+    (at 24.13 7.62)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (fp_line
+    (start -2.3 -2.77)
+    (end 50.5 -2.77)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "F.Fab"))
+  (fp_line
+    (start 50.5 -2.77)
+    (end 50.5 18.01)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "F.Fab"))
+  (fp_line
+    (start 50.5 18.01)
+    (end -2.3 18.01)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "F.Fab"))
+  (fp_line
+    (start -2.3 18.01)
+    (end -2.3 -2.77)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "F.Fab"))
+  (fp_line
+    (start -2.3 -2.77)
+    (end 50.5 -2.77)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS"))
+  (fp_line
+    (start 50.5 -2.77)
+    (end 50.5 18.01)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS"))
+  (fp_line
+    (start 50.5 18.01)
+    (end -2.3 18.01)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS"))
+  (fp_line
+    (start -2.3 18.01)
+    (end -2.3 -2.77)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS"))
+  (fp_line
+    (start -2.55 -3.02)
+    (end 50.75 -3.02)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "F.CrtYd"))
+  (fp_line
+    (start 50.75 -3.02)
+    (end 50.75 18.26)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "F.CrtYd"))
+  (fp_line
+    (start 50.75 18.26)
+    (end -2.55 18.26)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "F.CrtYd"))
+  (fp_line
+    (start -2.55 18.26)
+    (end -2.55 -3.02)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (layer "F.CrtYd"))
+  (fp_text user "USB-C"
+    (at 0.8 7.62 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (pad "21" thru_hole rect
+    (at 0 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB12"
+    (at 0 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "22" thru_hole oval
+    (at 2.54 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB13"
+    (at 2.54 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "23" thru_hole oval
+    (at 5.08 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB14"
+    (at 5.08 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "24" thru_hole oval
+    (at 7.62 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB15"
+    (at 7.62 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "25" thru_hole oval
+    (at 10.16 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA8"
+    (at 10.16 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "26" thru_hole oval
+    (at 12.7 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA9"
+    (at 12.7 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "27" thru_hole oval
+    (at 15.24 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA10"
+    (at 15.24 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "28" thru_hole oval
+    (at 17.78 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA11"
+    (at 17.78 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "29" thru_hole oval
+    (at 20.32 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA12"
+    (at 20.32 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "30" thru_hole oval
+    (at 22.86 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA15"
+    (at 22.86 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "31" thru_hole oval
+    (at 25.4 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB3"
+    (at 25.4 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "32" thru_hole oval
+    (at 27.94 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB4"
+    (at 27.94 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "33" thru_hole oval
+    (at 30.48 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB5"
+    (at 30.48 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "34" thru_hole oval
+    (at 33.02 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB6"
+    (at 33.02 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "35" thru_hole oval
+    (at 35.56 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB7"
+    (at 35.56 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "36" thru_hole oval
+    (at 38.1 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB8"
+    (at 38.1 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "37" thru_hole oval
+    (at 40.64 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB9"
+    (at 40.64 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "38" thru_hole oval
+    (at 43.18 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "5V"
+    (at 43.18 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "39" thru_hole oval
+    (at 45.72 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "G"
+    (at 45.72 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "40" thru_hole oval
+    (at 48.26 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "3V3"
+    (at 48.26 2.2 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify left)))
+  (pad "1" thru_hole rect
+    (at 48.26 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "5V"
+    (at 48.26 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "2" thru_hole oval
+    (at 45.72 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "G"
+    (at 45.72 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "3" thru_hole oval
+    (at 43.18 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "3V3"
+    (at 43.18 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "4" thru_hole oval
+    (at 40.64 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB10"
+    (at 40.64 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "5" thru_hole oval
+    (at 38.1 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB2"
+    (at 38.1 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "6" thru_hole oval
+    (at 35.56 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB1"
+    (at 35.56 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "7" thru_hole oval
+    (at 33.02 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PB0"
+    (at 33.02 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "8" thru_hole oval
+    (at 30.48 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA7"
+    (at 30.48 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "9" thru_hole oval
+    (at 27.94 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA6"
+    (at 27.94 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "10" thru_hole oval
+    (at 25.4 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA5"
+    (at 25.4 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "11" thru_hole oval
+    (at 22.86 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA4"
+    (at 22.86 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "12" thru_hole oval
+    (at 20.32 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA3"
+    (at 20.32 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "13" thru_hole oval
+    (at 17.78 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA2"
+    (at 17.78 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "14" thru_hole oval
+    (at 15.24 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA1"
+    (at 15.24 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "15" thru_hole oval
+    (at 12.7 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PA0"
+    (at 12.7 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "16" thru_hole oval
+    (at 10.16 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "NRST"
+    (at 10.16 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "17" thru_hole oval
+    (at 7.62 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PC15"
+    (at 7.62 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "18" thru_hole oval
+    (at 5.08 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PC14"
+    (at 5.08 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "19" thru_hole oval
+    (at 2.54 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "PC13"
+    (at 2.54 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right)))
+  (pad "20" thru_hole oval
+    (at 0 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask"))
+  (fp_text user "VBAT"
+    (at 0 13.04 90)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 0.7 0.7)
+        (thickness 0.12))
+      (justify right))))

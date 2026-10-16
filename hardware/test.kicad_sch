@@ -1,0 +1,953 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+  (uuid "7f1a3f99-063c-5b1f-8529-b72d2fb6261c")
+  (paper "A4")
+  (title_block
+    (title "Guitar pedal - test")
+    (company "Embedded audio learning project")
+    (rev "A"))
+  (lib_symbols
+    (symbol "Connector:TestPoint"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0.762) hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "TP"
+        (at 0 6.858 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "TestPoint"
+        (at 0 5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 5.08 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 5.08 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "test point tp"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "test point"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "Pin* Test*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "TestPoint_0_1"
+        (circle
+          (center 0 3.302)
+          (radius 0.762)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "TestPoint_1_1"
+        (pin passive line
+          (at 0 0 90)
+          (length 2.54)
+          (name "1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27))))))))
+  (text "TEST POINTS and mounting holes"
+    (at 12 10 0)
+    (effects
+      (font
+        (size 2.5 2.5))
+      (justify left top))
+    (uuid "4084159c-12dd-506e-9a3f-01056b237fd6"))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 19.05 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "244ea477-dbe4-590b-8f6c-36d2543502c1")
+    (property "Reference" "TP1"
+      (at 19.05 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "+9V"
+      (at 19.05 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 19.05 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 19.05 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 19.05 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 19.05 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 19.05 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "1f9f261e-dfda-5d33-9eb7-a9688dc1992e"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 19.05 29.21)
+      (xy 19.05 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e299986f-a94d-5572-945b-defe005be426"))
+  (global_label "+9V"
+    (shape passive)
+    (at 19.05 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "a2c6720c-5be6-5432-b378-f5206dfac187")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 19.05 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 35.56 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "4dd9b72f-67d9-5a1e-95ff-075644d3d38a")
+    (property "Reference" "TP2"
+      (at 35.56 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "+5V"
+      (at 35.56 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 35.56 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 35.56 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 35.56 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 35.56 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 35.56 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "21569298-d512-546e-95a7-0b971c50465f"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 35.56 29.21)
+      (xy 35.56 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9d44bba3-df27-5d71-9c14-5e04c084d4c2"))
+  (global_label "+5V"
+    (shape passive)
+    (at 35.56 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "7695a977-2c39-54ab-86a7-b7d1d09e1773")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 35.56 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 52.07 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "cfac61bf-1901-55b2-8854-6b890cc93e55")
+    (property "Reference" "TP3"
+      (at 52.07 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "+3V3A"
+      (at 52.07 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 52.07 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 52.07 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 52.07 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 52.07 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 52.07 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "ce593d23-b8c7-58f0-b2df-942b527199b1"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 52.07 29.21)
+      (xy 52.07 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e57107d6-ce5b-5073-b42c-61e62f50a579"))
+  (global_label "+3V3A"
+    (shape passive)
+    (at 52.07 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "37e52eee-dd24-59e5-93ee-845c00daa16d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 52.07 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 67.31 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "dd385d0c-0295-5760-8cc1-121f2f861ff2")
+    (property "Reference" "TP4"
+      (at 67.31 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "VBIAS"
+      (at 67.31 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 67.31 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 67.31 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 67.31 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 67.31 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 67.31 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "0de1c17f-f496-5061-b545-a7388e8619b3"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 67.31 29.21)
+      (xy 67.31 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7cabbf4c-bf88-5b5f-bbe5-236f0b7ab4ff"))
+  (global_label "VBIAS"
+    (shape passive)
+    (at 67.31 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "056ba936-d398-570b-a0bb-ae14e9f719e4")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 67.31 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 83.82 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "e16694dc-b0e2-5492-bfd6-312e8f10691f")
+    (property "Reference" "TP5"
+      (at 83.82 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "GND"
+      (at 83.82 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "5b405ee5-c6a1-5058-abc9-13b6f7613713"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP5")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 83.82 29.21)
+      (xy 83.82 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8fdbc7f3-e5aa-5da5-8cf6-9417cc9af2c7"))
+  (global_label "GND"
+    (shape passive)
+    (at 83.82 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "01dbe3c9-c9c4-50cc-9ea6-ccfdc98089c2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 83.82 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 100.33 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "823239f6-51b4-52cc-ae6e-711256056d5a")
+    (property "Reference" "TP6"
+      (at 100.33 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "GND"
+      (at 100.33 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 100.33 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 100.33 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 100.33 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 100.33 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 100.33 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "3d9e6087-3bcd-5dc8-ab54-f662f2d97419"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP6")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 100.33 29.21)
+      (xy 100.33 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b04ba42b-c9e4-5466-8f33-6b57b5b32018"))
+  (global_label "GND"
+    (shape passive)
+    (at 100.33 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8ef8e031-6ca9-53ae-9990-44582b6a61b1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 100.33 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 115.57 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "7dee2580-3632-5470-bd1e-0863c5c10e58")
+    (property "Reference" "TP7"
+      (at 115.57 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "MCLK"
+      (at 115.57 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 115.57 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 115.57 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 115.57 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 115.57 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 115.57 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "cecae539-7c24-563e-a636-109c80938042"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP7")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 115.57 29.21)
+      (xy 115.57 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f736c943-adfb-5a16-9e1f-f94f0655b79d"))
+  (global_label "MCLK"
+    (shape passive)
+    (at 115.57 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "e5fb44a2-ed30-5b44-9fcb-58f8df32c749")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 115.57 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 132.08 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "7f7f90ab-0a1e-577a-840e-fba4c494ef79")
+    (property "Reference" "TP8"
+      (at 132.08 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "BCK"
+      (at 132.08 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 132.08 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 132.08 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 132.08 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 132.08 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 132.08 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "64116e7f-eff5-536c-9dd6-2265cae3bcb9"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP8")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 132.08 29.21)
+      (xy 132.08 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "833e88d6-68f4-5611-a35f-6af8b191419c"))
+  (global_label "BCK"
+    (shape passive)
+    (at 132.08 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "d0af06bf-046f-5d08-946c-8790c549353c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 148.59 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "db1af542-a0e6-587f-aa48-2aec22240abe")
+    (property "Reference" "TP9"
+      (at 148.59 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "LRCK"
+      (at 148.59 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 148.59 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 148.59 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 148.59 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 148.59 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 148.59 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "504b8f22-711f-5064-b10a-8ead3f001da1"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP9")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 148.59 29.21)
+      (xy 148.59 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "924aaf33-efd0-5e8e-8770-7b42525d40d5"))
+  (global_label "LRCK"
+    (shape passive)
+    (at 148.59 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "61f14d6c-06a0-5732-a4dc-53eab6dc02cb")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 148.59 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 163.83 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "8b6db1d1-112f-5438-b19b-20d2c5235f16")
+    (property "Reference" "TP10"
+      (at 163.83 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "IN_BUF"
+      (at 163.83 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 163.83 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 163.83 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 163.83 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 163.83 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 163.83 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "91b37cf7-1ebe-5e38-a0b3-80cad2c6f9a7"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP10")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 163.83 29.21)
+      (xy 163.83 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5c4ef72f-cfa9-52cd-97bc-5c8988a7e951"))
+  (global_label "IN_BUF"
+    (shape passive)
+    (at 163.83 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "3cbcd35a-d4af-5623-851b-4579cfe01c10")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 163.83 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 180.34 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "ae070761-bcfd-5abf-9453-8d6ea8b832f0")
+    (property "Reference" "TP11"
+      (at 180.34 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "DAC_OUTL"
+      (at 180.34 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 180.34 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 180.34 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 180.34 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 180.34 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 180.34 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "e2e4a41a-bb12-5158-9594-88095bbb6464"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP11")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 180.34 29.21)
+      (xy 180.34 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7807dd24-13dc-5568-8316-e92a14573d9d"))
+  (global_label "DAC_OUTL"
+    (shape passive)
+    (at 180.34 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8f9bbfd5-976f-567e-afad-2704d30dadf7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 180.34 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector:TestPoint")
+    (at 196.85 29.21 0)
+    (unit 1)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (uuid "30384ecb-186b-5074-99c0-dd23ca7579c0")
+    (property "Reference" "TP12"
+      (at 196.85 22.352 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "OUT_BUF"
+      (at 196.85 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+      (at 196.85 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 196.85 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "(no part - bare pad, probe here)"
+      (at 196.85 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Measure here with the multimeter or scope"
+      (at 196.85 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "NONE"
+      (at 196.85 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "daaee60d-db32-54ff-8b95-efbb5ee0c55f"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/7f1a3f99-063c-5b1f-8529-b72d2fb6261c"
+          (reference "TP12")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 196.85 29.21)
+      (xy 196.85 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bf21b265-0a67-58b9-859e-dffd35ac8fa6"))
+  (global_label "OUT_BUF"
+    (shape passive)
+    (at 196.85 31.75 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "1db31ec3-1d6c-51bf-a76c-6e49a5bcd36d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 196.85 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (text "TP1 (+9V): Measure here with the multimeter or scope\nTP2 (+5V): Measure here with the multimeter or scope\nTP3 (+3V3A): Measure here with the multimeter or scope\nTP4 (VBIAS): Measure here with the multimeter or scope\nTP5, TP6 (GND): Measure here with the multimeter or scope\nTP7 (MCLK): Measure here with the multimeter or scope\nTP8 (BCK): Measure here with the multimeter or scope\nTP9 (LRCK): Measure here with the multimeter or scope\nTP10 (IN_BUF): Measure here with the multimeter or scope\nTP11 (DAC_OUTL): Measure here with the multimeter or scope\nTP12 (OUT_BUF): Measure here with the multimeter or scope"
+    (at 12 53.58 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "e6e1463a-f57b-5b80-981c-9d5215c8ed70"))
+  (sheet_instances
+    (path "/"
+      (page "9"))))

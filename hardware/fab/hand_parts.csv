@@ -1,0 +1,15 @@
+Part,Qty,Notes,Goes to
+"WeAct Black Pill V3.0, STM32F411CEU6",1,Must say F411 (not F401) and have the 25 MHz crystal. Comes with 2x 20-pin male headers.,U6 (plugs into the sockets)
+"Female pin header 1x20, 2.54 mm",2,"Straight, through-hole. These are the Black Pill's sockets.","U6 footprint, bottom side"
+"Potentiometer 9 mm, B10K (linear), PCB mount, M7 bushing, ~15 mm shaft",6,Alpha 9 mm vertical (RD901F-40 family) or equivalent. Snap off the small anti-rotation tab.,"RV1-RV6, top side"
+Knobs for 6 mm shafts,6,Match your pots' shaft type (knurled or D).,on the pots
+"LED 3 mm diffused: red, yellow, green",3,One of each colour (any colour works).,"D3 red, D4 yellow, D5 green, top side"
+"Momentary footswitch, SPST, normally open ('soft-touch')",3,NOT the latching/clicky 3PDT kind. 12 mm thread.,wired to J6
+"6.35 mm (1/4"") mono jack, panel mount",2,Cliff/Lumberg or Switchcraft style.,"input -> J2, output -> J3"
+"2.1 mm DC jack, panel mount, centre-negative pedal type",1,,wired to J1
+"Male pin header 1x3, 2.54 mm",1,,J5 (debug serial)
+"Hook-up wire, 24 AWG stranded, 2-3 colours",1,"About 2 m in total. Solder it straight into J1, J2, J3 and J6 (no pin headers there).",jacks and switches
+Enclosure Hammond 1590XX (145 x 121 x 39 mm) or similar,1,Aluminium. The drill template is drawn for this size.,the box
+"9 V DC pedal power supply, centre-negative, >= 300 mA",1,The normal guitar-pedal adapter.,power
+USB-C cable,1,For flashing the firmware.,Black Pill
+"USB-serial adapter, 3.3 V (CP2102 or CH340)",1,Optional: only to read the debug messages.,J5

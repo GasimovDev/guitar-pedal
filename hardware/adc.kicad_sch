@@ -1,0 +1,1180 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+  (uuid "e64cb2d8-1ef2-59e6-a169-1d4991909636")
+  (paper "A4")
+  (title_block
+    (title "Guitar pedal - adc")
+    (company "Embedded audio learning project")
+    (rev "A"))
+  (lib_symbols
+    (symbol "pedal:PCM1808PW"
+      (pin_names
+        (offset 1.016))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at 0 20.32 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "PCM1808PW"
+        (at 0 -20.32 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+        (at 0 -22.86 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm1808.pdf"
+        (at 0 -25.4 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Single-ended 24-bit stereo ADC, 99 dB SNR, TSSOP-14"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "PCM1808PW_0_1"
+        (rectangle
+          (start -10.16 12.7)
+          (end 10.16 -12.7)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol "PCM1808PW_1_1"
+        (pin input line
+          (at -15.24 10.16 0)
+          (length 5.08)
+          (name "SCKI"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -15.24 7.62 0)
+          (length 5.08)
+          (name "BCK"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin bidirectional line
+          (at -15.24 5.08 0)
+          (length 5.08)
+          (name "LRCK"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin output line
+          (at -15.24 2.54 0)
+          (length 5.08)
+          (name "DOUT"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "9"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -15.24 -2.54 0)
+          (length 5.08)
+          (name "FMT"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "12"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -15.24 -5.08 0)
+          (length 5.08)
+          (name "MD0"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "10"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -15.24 -7.62 0)
+          (length 5.08)
+          (name "MD1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "11"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at 15.24 10.16 180)
+          (length 5.08)
+          (name "VINL"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "13"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at 15.24 7.62 180)
+          (length 5.08)
+          (name "VINR"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "14"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 15.24 2.54 180)
+          (length 5.08)
+          (name "VREF"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -2.54 17.78 270)
+          (length 5.08)
+          (name "VCC"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at 2.54 17.78 270)
+          (length 5.08)
+          (name "VDD"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -2.54 -17.78 90)
+          (length 5.08)
+          (name "AGND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at 2.54 -17.78 90)
+          (length 5.08)
+          (name "DGND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:C"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0.254))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Unpolarized capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "C_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))))
+  (text "ADC: PCM1808 turns the analog signal into numbers (I2S)"
+    (at 12 10 0)
+    (effects
+      (font
+        (size 2.5 2.5))
+      (justify left top))
+    (uuid "433e0db3-fbc6-5b4f-97f3-7b95ceee3b73"))
+  (symbol
+    (lib_id "pedal:PCM1808PW")
+    (at 45.72 54.61 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5efbbe2c-c53b-59dc-bed8-c0ebbdc5d6ea")
+    (property "Reference" "U4"
+      (at 45.72 34.29 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "PCM1808"
+      (at 45.72 74.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+      (at 45.72 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/pcm1808.pdf"
+      (at 45.72 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "PCM1808PWR"
+      (at 45.72 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "24-bit stereo ADC. MD0=MD1=0: slave mode. FMT=0: I2S"
+      (at 45.72 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 45.72 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "6"
+      (uuid "a3f8aa4f-b338-5c63-9012-8d0a06884fb0"))
+    (pin "8"
+      (uuid "8cb20499-1339-554a-a14c-7d8f7426345e"))
+    (pin "7"
+      (uuid "a6599a52-b779-53f5-91ac-0005b416338f"))
+    (pin "9"
+      (uuid "319f9de7-e06e-50d0-8f8c-80cc2bf36487"))
+    (pin "12"
+      (uuid "ad1eb7dc-d968-5cf8-96ba-46e923aed277"))
+    (pin "10"
+      (uuid "240db9a3-931a-5b94-a3bb-2d8ba9001bd5"))
+    (pin "11"
+      (uuid "74236df0-1e47-52c0-b714-47327033ca9b"))
+    (pin "13"
+      (uuid "5f68c881-877f-5b1e-bcfe-1882834fe4a6"))
+    (pin "14"
+      (uuid "6414707f-bd6e-51f4-807a-0e230c5ec694"))
+    (pin "1"
+      (uuid "615f8fe3-099e-5f78-8da9-74ba81763c81"))
+    (pin "3"
+      (uuid "e248985b-44ce-5ba3-a040-e222a9618745"))
+    (pin "4"
+      (uuid "132824fe-4a3d-5756-af81-15eb1b42de81"))
+    (pin "2"
+      (uuid "1a915269-369a-5cb6-af7e-3bed2511c3e5"))
+    (pin "5"
+      (uuid "d603b581-e15a-5933-9c5b-53ae4ae9f6b2"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/e64cb2d8-1ef2-59e6-a169-1d4991909636"
+          (reference "U4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 30.48 44.45)
+      (xy 27.94 44.45))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "cd81abe7-dc54-5fbb-a425-657d727f1252"))
+  (global_label "MCLK"
+    (shape passive)
+    (at 27.94 44.45 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8253c96b-ff65-5f30-97ea-1fffe074b180")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 27.94 44.45 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 30.48 46.99)
+      (xy 27.94 46.99))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ebd990de-35ca-59f8-a2fc-a9fb0587da1a"))
+  (global_label "BCK"
+    (shape passive)
+    (at 27.94 46.99 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "43b16d7c-21ed-5296-a75e-43a613225564")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 27.94 46.99 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 30.48 49.53)
+      (xy 27.94 49.53))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d8f1786f-7682-5779-a6fd-f071c5eb6a25"))
+  (global_label "LRCK"
+    (shape passive)
+    (at 27.94 49.53 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "3a41d9fa-cac3-5873-818e-1df6c480bed9")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 27.94 49.53 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 30.48 52.07)
+      (xy 27.94 52.07))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b4d2c16f-6646-5dc9-bc6c-87ef4b6cfb93"))
+  (global_label "ADC_DOUT"
+    (shape passive)
+    (at 27.94 52.07 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "5f637f80-d08c-560c-b79a-82ee699f2465")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 27.94 52.07 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 30.48 57.15)
+      (xy 27.94 57.15))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "28a2939c-05fd-5b4f-a559-f80ba009ee26"))
+  (global_label "GND"
+    (shape passive)
+    (at 27.94 57.15 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "e59445b7-01ce-53f2-b4dd-35024898947e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 27.94 57.15 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 30.48 59.69)
+      (xy 27.94 59.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ae5ebb28-6dd7-592e-b789-4b52dcd1152a"))
+  (global_label "GND"
+    (shape passive)
+    (at 27.94 59.69 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "f122a8eb-7060-56f2-9aec-38f792ea1dfe")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 27.94 59.69 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 30.48 62.23)
+      (xy 27.94 62.23))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "dd3e2fb0-5b91-5b64-ad2b-d3199a7dc6b3"))
+  (global_label "GND"
+    (shape passive)
+    (at 27.94 62.23 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "820a3983-aa6f-5c17-8986-e08351026d42")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 27.94 62.23 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 60.96 44.45)
+      (xy 63.5 44.45))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d282a99f-f71b-55b5-aea3-3e3f6a996aa4"))
+  (global_label "ADC_VINL"
+    (shape passive)
+    (at 63.5 44.45 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ac018f2c-2dd5-55b3-98b0-71a09dcf0399")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 63.5 44.45 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 60.96 46.99)
+      (xy 63.5 46.99))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d61de3f2-e06c-59ab-a4ab-d3351e5486cb"))
+  (global_label "ADC_VINR"
+    (shape passive)
+    (at 63.5 46.99 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "b814896f-7f5a-53a5-ba42-504cc9db3bde")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 63.5 46.99 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 60.96 52.07)
+      (xy 63.5 52.07))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f448281a-f80e-509f-9e33-576b33a34b2d"))
+  (global_label "ADC_VREF"
+    (shape passive)
+    (at 63.5 52.07 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "b1054b84-b21c-548e-835a-9ce0494a7092")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 63.5 52.07 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 43.18 36.83)
+      (xy 43.18 34.29))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d592c603-d87d-5696-b114-bf23f63290fe"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 43.18 34.29 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "a5bdd19d-be04-5652-ad36-c9ef2c16811a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 43.18 34.29 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 48.26 36.83)
+      (xy 48.26 34.29))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7b469683-922c-5cdc-9890-f5fc46416a8c"))
+  (global_label "+3V3A"
+    (shape passive)
+    (at 48.26 34.29 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "3250380f-4823-59f2-831a-a00b145af7ff")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 48.26 34.29 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 43.18 72.39)
+      (xy 43.18 74.93))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b5cd4600-6b75-5df3-a19d-16053ce0507a"))
+  (global_label "GND"
+    (shape passive)
+    (at 43.18 74.93 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "346b6924-d378-54ae-b704-16153b7f02a7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 43.18 74.93 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 48.26 72.39)
+      (xy 48.26 74.93))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9ffc66aa-c6bb-5b03-9b49-a94891ca7149"))
+  (global_label "GND"
+    (shape passive)
+    (at 48.26 74.93 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "d24c7a34-5211-5e52-a0d0-c71e338f3c26")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 48.26 74.93 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 87.63 44.45 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "58c24650-43c9-5bb6-a8f5-166cbd02aa42")
+    (property "Reference" "C16"
+      (at 88.265 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10uF"
+      (at 88.265 46.99 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 87.63 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 87.63 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10uF X7R"
+      (at 87.63 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "ADC reference decoupling (datasheet: 10uF + 0.1uF)"
+      (at 87.63 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 87.63 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "a22a9c7f-70a0-524f-9582-2d765be6546a"))
+    (pin "2"
+      (uuid "5cb45a88-8faf-5a38-bfa6-0676b64c5a64"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/e64cb2d8-1ef2-59e6-a169-1d4991909636"
+          (reference "C16")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 87.63 40.64)
+      (xy 87.63 38.1))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "cb7deecb-f4e0-5170-a385-f21190d16f1d"))
+  (global_label "ADC_VREF"
+    (shape passive)
+    (at 87.63 38.1 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "1e51d5ff-78d5-5c4d-aeaf-f8c204f583ab")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 87.63 38.1 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 87.63 48.26)
+      (xy 87.63 50.8))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bf9f0d06-10b7-5bc0-aa97-e3fd0305c80d"))
+  (global_label "GND"
+    (shape passive)
+    (at 87.63 50.8 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "4e7da609-8caf-52f9-b8ba-3f826e5ae82d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 87.63 50.8 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 102.87 44.45 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2a6bd02f-3ac2-51f9-850a-1da648b99dd7")
+    (property "Reference" "C17"
+      (at 103.505 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 103.505 46.99 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 102.87 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 102.87 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100nF X7R"
+      (at 102.87 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 102.87 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 102.87 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "6a485b7a-246e-5892-9e1d-e00d88b438c6"))
+    (pin "2"
+      (uuid "22deb9a8-b293-5f4c-b02c-06db2d6db8ca"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/e64cb2d8-1ef2-59e6-a169-1d4991909636"
+          (reference "C17")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 102.87 40.64)
+      (xy 102.87 38.1))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4454d835-6515-5290-8fe9-aff5c72c08b9"))
+  (global_label "ADC_VREF"
+    (shape passive)
+    (at 102.87 38.1 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "f849d523-2204-54d7-b5e7-b84f05748928")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 102.87 38.1 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 102.87 48.26)
+      (xy 102.87 50.8))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5eb43f74-a79d-5bdd-98b0-1854b6ee599e"))
+  (global_label "GND"
+    (shape passive)
+    (at 102.87 50.8 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "58c1ce64-c32f-584b-84ad-803205100fce")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 102.87 50.8 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 119.38 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "bdcf95f9-be08-531a-9e0e-c6aa81fa1b4a")
+    (property "Reference" "C18"
+      (at 120.015 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10uF"
+      (at 120.015 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 119.38 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 119.38 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10uF X7R"
+      (at 119.38 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 119.38 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 119.38 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "69bf5b58-e0a8-514b-9c66-7d2855c2e31a"))
+    (pin "2"
+      (uuid "03e46b29-78a5-5c31-96c1-3d65b4765d8c"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/e64cb2d8-1ef2-59e6-a169-1d4991909636"
+          (reference "C18")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 119.38 35.56)
+      (xy 119.38 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "43d52e02-8c9d-5854-9a5f-cb98a3b0333b"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 119.38 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "af28b3b3-2e33-5432-8406-b8308bcd1362")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 119.38 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 119.38 43.18)
+      (xy 119.38 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0d5756ab-64ef-5533-84be-048ce8dc83fe"))
+  (global_label "GND"
+    (shape passive)
+    (at 119.38 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "2bdc88f1-9700-5694-bf02-19cafdc9057e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 119.38 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 135.89 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "77a9cb89-cdd4-5991-91a5-453d27def14d")
+    (property "Reference" "C19"
+      (at 136.525 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 136.525 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 135.89 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 135.89 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100nF X7R"
+      (at 135.89 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 135.89 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 135.89 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "d66e0250-d7cb-5ec1-acae-0e21b6da826b"))
+    (pin "2"
+      (uuid "c6c13c60-1c76-512a-88dd-5e508284cbcb"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/e64cb2d8-1ef2-59e6-a169-1d4991909636"
+          (reference "C19")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 135.89 35.56)
+      (xy 135.89 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1ca75ddd-f414-513f-9c5f-99084fb3e5f7"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 135.89 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "2ddf0be0-bcdd-550c-a73b-ee0bf7a01f8c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 135.89 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 135.89 43.18)
+      (xy 135.89 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bcd8481a-bbe9-5318-90b8-856cdc293b91"))
+  (global_label "GND"
+    (shape passive)
+    (at 135.89 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8ebc6d3f-ac13-5b21-8bc4-bac24bb895bd")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 135.89 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 151.13 40.64 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "e4312bfa-14e6-5d4c-b19b-1ac74e5658e4")
+    (property "Reference" "C20"
+      (at 151.765 38.1 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 151.765 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 151.13 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 151.13 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100nF X7R"
+      (at 151.13 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 151.13 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 151.13 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "3177b2f0-741d-566c-992e-7351f17ae02c"))
+    (pin "2"
+      (uuid "6e271c64-7841-5b1b-af39-cd5497e23954"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/e64cb2d8-1ef2-59e6-a169-1d4991909636"
+          (reference "C20")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 151.13 36.83)
+      (xy 151.13 34.29))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "756d3e5f-e2d1-5251-a017-57a01d6ad946"))
+  (global_label "+3V3A"
+    (shape passive)
+    (at 151.13 34.29 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "73610438-6b93-5270-83a5-cfa4c20911ad")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 151.13 34.29 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 151.13 44.45)
+      (xy 151.13 46.99))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6785ebe0-d6d0-585d-add3-1dd044123fdb"))
+  (global_label "GND"
+    (shape passive)
+    (at 151.13 46.99 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "31914c7c-fdc0-52d2-b7dd-7ae7c3eae8de")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 151.13 46.99 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (text "U4 (PCM1808): 24-bit stereo ADC. MD0=MD1=0: slave mode. FMT=0: I2S\nC16 (10uF): ADC reference decoupling (datasheet: 10uF + 0.1uF)\nC17, C19, C20 (100nF): Ceramic capacitor\nC18 (10uF): Ceramic capacitor"
+    (at 12 91.64 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "05903d1f-0907-52ba-90bf-1433433e573c"))
+  (sheet_instances
+    (path "/"
+      (page "4"))))

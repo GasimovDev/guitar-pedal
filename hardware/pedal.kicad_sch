@@ -1,0 +1,292 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+  (uuid "93f17a6a-c904-5484-ad6e-34ddf97f6b66")
+  (paper "A3")
+  (title_block
+    (title "Guitar effects pedal")
+    (date "2026-10-14")
+    (rev "A")
+    (company "Embedded audio learning project"))
+  (lib_symbols)
+  (text "GUITAR EFFECTS PEDAL  -  STM32F411 + PCM1808 ADC + PCM5102A DAC"
+    (at 20 20 0)
+    (effects
+      (font
+        (size 4 4))
+      (justify left top))
+    (uuid "188eced1-2e7c-5c68-9360-3b9e98973d4e"))
+  (text "Signal path:  guitar -> INPUT buffer -> ADC (PCM1808) -> I2S -> MCU (overdrive, tremolo, delay) -> I2S -> DAC (PCM5102A) -> OUTPUT buffer -> amp\nEvery wire is drawn as a label: two labels with the same name are the same wire.\nPower: 9 V centre-negative adapter. Net names: +9V (after the protection diode), +5V, +5VA (ADC analog), +3V3A (converters), +3V3_MCU (from the Black Pill), VBIAS (half of 9 V, the op-amps' 'zero')."
+    (at 20 30 0)
+    (effects
+      (font
+        (size 1.8 1.8))
+      (justify left top))
+    (uuid "6f852bf7-4b1d-516d-bc72-c55e593b95c5"))
+  (sheet
+    (at 20 60)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "0cfda721-1481-5027-b576-869f0843d4c2")
+    (property "Sheetname" "POWER"
+      (at 20 59.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "power.kicad_sch"
+      (at 20 100.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "2")))))
+  (text "9 V in -> protection -> 5 V, 3.3 V and VBIAS (4.3 V)"
+    (at 22 64 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "bfb2192c-fdf8-5ca0-9f60-ede24f98ea2a"))
+  (sheet
+    (at 117 60)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "839c0060-54b8-5a6d-a109-af6d7d104809")
+    (property "Sheetname" "INPUT"
+      (at 117 59.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "input.kicad_sch"
+      (at 117 100.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "3")))))
+  (text "guitar -> 1 MOhm buffer (x1.5) -> anti-alias filter -> ADC"
+    (at 119 64 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "fdb07890-2b91-5d08-ba23-c85ca349ef85"))
+  (sheet
+    (at 214 60)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "e64cb2d8-1ef2-59e6-a169-1d4991909636")
+    (property "Sheetname" "ADC"
+      (at 214 59.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "adc.kicad_sch"
+      (at 214 100.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "4")))))
+  (text "PCM1808 turns the analog signal into numbers (I2S)"
+    (at 216 64 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "3cf76239-d993-54ef-96eb-d0a3da2e41b1"))
+  (sheet
+    (at 311 60)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "5200e91d-3172-59d1-8f6d-a92c9ae3c3c0")
+    (property "Sheetname" "DAC"
+      (at 311 59.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "dac.kicad_sch"
+      (at 311 100.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "5")))))
+  (text "PCM5102A turns numbers back into an analog signal"
+    (at 313 64 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "f19dc0c8-87ed-5945-bd2f-2d2a1212cb29"))
+  (sheet
+    (at 20 115)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "28800bea-5ad0-5f20-a2f0-b40a16158336")
+    (property "Sheetname" "OUTPUT"
+      (at 20 114.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "output.kicad_sch"
+      (at 20 155.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "6")))))
+  (text "DAC -> filter -> attenuator -> buffer -> output jack"
+    (at 22 119 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "6b82f0e2-8da7-5fc1-bdf1-1c34aa796086"))
+  (sheet
+    (at 117 115)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "5d8cc821-f921-5cfa-9737-4ee52c642772")
+    (property "Sheetname" "MCU"
+      (at 117 114.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "mcu.kicad_sch"
+      (at 117 155.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "7")))))
+  (text "STM32F411 Black Pill runs the effects"
+    (at 119 119 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "a37ad4de-c362-5f51-a861-b5d457d63b7b"))
+  (sheet
+    (at 214 115)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "d72d906f-a728-5973-ad30-61dbe11a5907")
+    (property "Sheetname" "CONTROLS"
+      (at 214 114.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "controls.kicad_sch"
+      (at 214 155.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "8")))))
+  (text "6 knobs, 3 footswitches, 3 LEDs"
+    (at 216 119 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "d6a06f4f-6c15-5af4-8a94-b85bb902dd47"))
+  (sheet
+    (at 311 115)
+    (size 85 40)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid))
+    (fill
+      (color 0 0 0 0))
+    (uuid "7f1a3f99-063c-5b1f-8529-b72d2fb6261c")
+    (property "Sheetname" "TEST"
+      (at 311 114.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left bottom)))
+    (property "Sheetfile" "test.kicad_sch"
+      (at 311 155.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left top)))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66"
+          (page "9")))))
+  (text "TEST POINTS and mounting holes"
+    (at 313 119 0)
+    (effects
+      (font
+        (size 1.5 1.5))
+      (justify left top))
+    (uuid "99a9bc82-9858-50e0-96a8-681dad14bad8"))
+  (sheet_instances
+    (path "/"
+      (page "1"))))

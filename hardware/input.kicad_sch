@@ -1,0 +1,2132 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+  (uuid "839c0060-54b8-5a6d-a109-af6d7d104809")
+  (paper "A4")
+  (title_block
+    (title "Guitar pedal - input")
+    (company "Embedded audio learning project")
+    (rev "A"))
+  (lib_symbols
+    (symbol "Connector_Generic:Conn_01x02"
+      (pin_names
+        (offset 1.016) hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J"
+        (at 0 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "Conn_01x02"
+        (at 0 -5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "connector"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "Connector*:*_1x??_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "Conn_01x02_1_1"
+        (rectangle
+          (start -1.27 -2.413)
+          (end 0 -2.667)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start -1.27 0.127)
+          (end 0 -0.127)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start -1.27 1.27)
+          (end 1.27 -3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (pin passive line
+          (at -5.08 0 0)
+          (length 3.81)
+          (name "Pin_1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 -2.54 0)
+          (length 3.81)
+          (name "Pin_2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:R"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R"
+        (at 2.032 0 90)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "R"
+        (at 0 0 90)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "R res resistor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Resistor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "R_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "R_0_1"
+        (rectangle
+          (start -1.016 -2.54)
+          (end 1.016 2.54)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "R_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:C"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0.254))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Unpolarized capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "C_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Amplifier_Operational:OPA1678"
+      (pin_names
+        (offset 0.127))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at 0 5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "OPA1678"
+        (at 0 -5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_locked" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "dual opamp"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Low-Distortion Audio Operational Amplifiers, SOIC-8/VSSOP-8"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "OPA1678_1_1"
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy 5.08 0)
+            (xy -5.08 -5.08)
+            (xy -5.08 5.08))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (pin output line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -7.62 -2.54 0)
+          (length 2.54)
+          (name "-"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name "+"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (symbol "OPA1678_2_1"
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy 5.08 0)
+            (xy -5.08 -5.08)
+            (xy -5.08 5.08))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (pin input line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name "+"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -7.62 -2.54 0)
+          (length 2.54)
+          (name "-"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin output line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (symbol "OPA1678_3_1"
+        (pin power_in line
+          (at -2.54 -7.62 90)
+          (length 3.81)
+          (name "V-"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -2.54 7.62 270)
+          (length 3.81)
+          (name "V+"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27))))))))
+  (text "INPUT: guitar -> 1 MOhm buffer (x1.5) -> anti-alias filter -> ADC"
+    (at 12 10 0)
+    (effects
+      (font
+        (size 2.5 2.5))
+      (justify left top))
+    (uuid "0e621bc2-fbc4-535d-8f50-f77a8885d8cd"))
+  (symbol
+    (lib_id "Amplifier_Operational:OPA1678")
+    (at 34.29 29.21 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "16b4edab-ae3f-5c00-abe0-0da34734255a")
+    (property "Reference" "U3"
+      (at 34.29 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "OPA1678"
+      (at 34.29 34.29 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (at 34.29 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+      (at 34.29 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "OPA1678IDR"
+      (at 34.29 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Dual audio op-amp, rail-to-rail output. NE5532 fits too (same pins, works on 9 V)"
+      (at 34.29 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 34.29 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "140c12fe-7940-5c23-b689-a9c7dd67f9ee"))
+    (pin "2"
+      (uuid "6c40e3ca-36ff-5b75-8d0c-299440b700c3"))
+    (pin "3"
+      (uuid "2ddff39e-6b76-594e-9f87-baa22a582663"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "U3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 41.91 29.21)
+      (xy 44.45 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "95cd3c4a-ae18-573d-9cee-6ccab1c56819"))
+  (global_label "IN_BUF"
+    (shape passive)
+    (at 44.45 29.21 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "b7cfb11d-828f-591f-907c-0b5cb8461983")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 44.45 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 26.67 31.75)
+      (xy 24.13 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "36251bbd-00aa-52b5-b65f-98cb38679975"))
+  (global_label "IN_FB"
+    (shape passive)
+    (at 24.13 31.75 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "316a906b-53c6-529a-8eae-0bb1e667b4fa")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 24.13 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 26.67 26.67)
+      (xy 24.13 26.67))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b34db3bf-a252-596e-80b4-86a37093ae16"))
+  (global_label "IN_P"
+    (shape passive)
+    (at 24.13 26.67 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "3a67a004-c9d4-5aa2-ad5d-9c79f4e41386")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 24.13 26.67 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Amplifier_Operational:OPA1678")
+    (at 83.82 29.21 0)
+    (unit 2)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "1e43e6cb-8888-5290-93d4-6ce6175adc04")
+    (property "Reference" "U3"
+      (at 83.82 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "OPA1678"
+      (at 83.82 34.29 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "OPA1678IDR"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Dual audio op-amp, rail-to-rail output. NE5532 fits too (same pins, works on 9 V)"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 83.82 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "5"
+      (uuid "bfbd957c-f9e3-59a0-9848-8f5f27f4556f"))
+    (pin "6"
+      (uuid "e239fe56-c85f-58c0-94c8-7c9c6c99954f"))
+    (pin "7"
+      (uuid "81a5c89c-b755-5b56-983a-930de2383b18"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "U3")
+          (unit 2)))))
+  (wire
+    (pts
+      (xy 76.2 26.67)
+      (xy 73.66 26.67))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f93f4ab7-e12b-53c6-bc15-3a11434edee5"))
+  (global_label "OUT_P"
+    (shape passive)
+    (at 73.66 26.67 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "f9b04c28-fb30-5db5-982c-6f2eba3f5c65")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 73.66 26.67 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 76.2 31.75)
+      (xy 73.66 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4ece9103-5a46-5e61-ad83-bdef8acd3fcd"))
+  (global_label "OUT_BUF"
+    (shape passive)
+    (at 73.66 31.75 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "12e2c53d-9756-5b39-8c0f-84ca8bd05241")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 73.66 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 91.44 29.21)
+      (xy 93.98 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "44f67fa6-485d-5ae5-a70a-e0eef7947627"))
+  (global_label "OUT_BUF"
+    (shape passive)
+    (at 93.98 29.21 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "d62d8a90-ebfb-55e5-92f5-c45aadac66c8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 93.98 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Amplifier_Operational:OPA1678")
+    (at 116.84 43.18 0)
+    (unit 3)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "82a35924-a495-503e-b5ad-e59646fba5ac")
+    (property "Reference" "U3"
+      (at 116.84 38.1 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "OPA1678"
+      (at 116.84 48.26 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (at 116.84 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa1678.pdf"
+      (at 116.84 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "OPA1678IDR"
+      (at 116.84 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Dual audio op-amp, rail-to-rail output. NE5532 fits too (same pins, works on 9 V)"
+      (at 116.84 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 116.84 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "4"
+      (uuid "68d287b8-b968-5cb7-ac63-26c5d00d43a5"))
+    (pin "8"
+      (uuid "70ea9489-46ff-5a6b-920f-131f9e5fc444"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "U3")
+          (unit 3)))))
+  (wire
+    (pts
+      (xy 114.3 50.8)
+      (xy 114.3 53.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "211fc984-cce6-5eda-b292-8987f3137494"))
+  (global_label "GND"
+    (shape passive)
+    (at 114.3 53.34 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "d40ca7d2-197c-5170-a887-179ecf6bc2b4")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 114.3 53.34 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 114.3 35.56)
+      (xy 114.3 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "96cb90c0-85fe-5b72-8573-98f03a3b50b9"))
+  (global_label "+9V"
+    (shape passive)
+    (at 114.3 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "200fc1f4-5d20-5e2e-bc02-3bac6474267a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 114.3 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector_Generic:Conn_01x02")
+    (at 147.32 29.21 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "45282efe-a678-5bc9-8330-2c7d832147dc")
+    (property "Reference" "J2"
+      (at 147.32 26.67 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "GUITAR_IN"
+      (at 147.32 34.29 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+      (at 147.32 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 147.32 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "2.54mm header 1x2"
+      (at 147.32 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Wire to the input jack: tip -> 1, sleeve -> 2"
+      (at 147.32 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "HAND"
+      (at 147.32 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "c214e486-27b0-5cb1-8127-cebcaa5f1dd7"))
+    (pin "2"
+      (uuid "dcde85f4-5d4f-51f4-8384-3b12d4d39f27"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "J2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 142.24 29.21)
+      (xy 139.7 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bc39dee9-2cfb-506c-aaba-5ffbb696947e"))
+  (global_label "IN_TIP"
+    (shape passive)
+    (at 139.7 29.21 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "5e592351-9738-5c0f-84b7-19c22258c527")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 139.7 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 142.24 31.75)
+      (xy 139.7 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bead74bc-a2e4-5083-9f70-34799e46a7a4"))
+  (global_label "GND"
+    (shape passive)
+    (at 139.7 31.75 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "24da5ec3-1e81-57fe-929c-90114048c3d4")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 139.7 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 162.56 41.91 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "274e8e69-252d-59b9-9132-031e0ce65152")
+    (property "Reference" "R3"
+      (at 164.592 41.91 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1M"
+      (at 162.56 41.91 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 162.56 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 162.56 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 1M 1%"
+      (at 162.56 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Pull-down: stops a 'pop' when you plug in"
+      (at 162.56 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 162.56 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "0024a529-1ba4-591f-a0b7-4d8af3e23d32"))
+    (pin "2"
+      (uuid "2cd6fd16-4ca0-5688-a513-eef5a46c1be9"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "R3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 162.56 38.1)
+      (xy 162.56 35.56))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d9df5163-b706-5e98-b1a3-edb46e7844b8"))
+  (global_label "IN_TIP"
+    (shape passive)
+    (at 162.56 35.56 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "403f53f0-a6c3-56e8-a33b-0e747be1eddb")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 162.56 35.56 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 162.56 45.72)
+      (xy 162.56 48.26))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0805685b-b0ce-505b-b82f-c499548808a8"))
+  (global_label "GND"
+    (shape passive)
+    (at 162.56 48.26 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "d539a563-56c6-5488-a101-0bb91a025ee2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 162.56 48.26 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 179.07 41.91 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "3ec425f6-479f-5767-85f7-1fb5b377351f")
+    (property "Reference" "C9"
+      (at 179.705 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 179.705 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 179.07 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 179.07 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100nF X7R"
+      (at 179.07 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Blocks DC from the guitar side"
+      (at 179.07 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 179.07 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "7b18c502-896d-5876-9ba0-e50420658d39"))
+    (pin "2"
+      (uuid "6528af34-5ade-565a-bc59-e2ea711167a8"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "C9")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 179.07 38.1)
+      (xy 179.07 35.56))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a19b5bc9-da83-5ede-a668-cc2494c02d15"))
+  (global_label "IN_TIP"
+    (shape passive)
+    (at 179.07 35.56 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "f2548132-139d-5aa1-b7dd-80ebde0bf8dc")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 179.07 35.56 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 179.07 45.72)
+      (xy 179.07 48.26))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5ae1bb94-b517-5cd8-bf35-53ac888e1274"))
+  (global_label "IN_AC"
+    (shape passive)
+    (at 179.07 48.26 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "24e0ba63-53ec-5b4f-92c3-0d5ec843b272")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 179.07 48.26 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 195.58 40.64 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2f5b7603-95ec-5a15-b268-9af4eed7ca6c")
+    (property "Reference" "R4"
+      (at 197.612 40.64 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1k"
+      (at 195.58 40.64 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 195.58 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 195.58 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 1k 1%"
+      (at 195.58 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "With C10: filters radio interference"
+      (at 195.58 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 195.58 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "4bed6a0b-c899-575a-bec0-e8e975ed702b"))
+    (pin "2"
+      (uuid "503437db-0a3c-5663-ba14-e3a58775db65"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "R4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 195.58 36.83)
+      (xy 195.58 34.29))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "86dd9588-9f76-5705-b316-fd6795164fad"))
+  (global_label "IN_AC"
+    (shape passive)
+    (at 195.58 34.29 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "e8693e46-258b-5cd5-9cf5-87deb8080f77")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 195.58 34.29 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 195.58 44.45)
+      (xy 195.58 46.99))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d2965d82-372b-5d9c-a8fc-e1db672a5e13"))
+  (global_label "IN_P"
+    (shape passive)
+    (at 195.58 46.99 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "a72aaebf-7a81-551b-bad8-e08ab3c4a840")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 195.58 46.99 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 210.82 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "06b454bc-ec2d-519d-812e-eece96292bfd")
+    (property "Reference" "C10"
+      (at 211.455 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100pF"
+      (at 211.455 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 210.82 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 210.82 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100pF C0G"
+      (at 210.82 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 210.82 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 210.82 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "db66e455-910c-51f0-953d-c24b069bc75c"))
+    (pin "2"
+      (uuid "c928dece-4d24-5c40-8e85-d926daaca784"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "C10")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 210.82 35.56)
+      (xy 210.82 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e8fa4e14-f986-55f4-b545-cd725ceca8ee"))
+  (global_label "IN_P"
+    (shape passive)
+    (at 210.82 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "0e485916-5832-59d1-b428-7aa2262c514c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 210.82 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 210.82 43.18)
+      (xy 210.82 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ca1b7db7-d814-53a0-a63b-f989fa86ee2b"))
+  (global_label "GND"
+    (shape passive)
+    (at 210.82 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "3d252901-2842-599b-971b-36458579c71c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 210.82 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 227.33 40.64 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4d862e30-b55a-50cb-a1fe-5060a67e385e")
+    (property "Reference" "R5"
+      (at 229.362 40.64 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1M"
+      (at 227.33 40.64 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 227.33 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 227.33 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 1M 1%"
+      (at 227.33 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Biases the op-amp input to VBIAS; 1 MOhm = what a guitar wants to see"
+      (at 227.33 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 227.33 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "db00d74a-c1af-555d-a5b1-3799e85790e3"))
+    (pin "2"
+      (uuid "0531f604-a481-5b57-b4e9-42b71be7f02f"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "R5")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 227.33 36.83)
+      (xy 227.33 34.29))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8660d3bc-0545-5175-afbf-1a8d9fffacc9"))
+  (global_label "VBIAS"
+    (shape passive)
+    (at 227.33 34.29 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "c282fc76-46ee-5b56-a36b-26e33f2c8810")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 227.33 34.29 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 227.33 44.45)
+      (xy 227.33 46.99))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9789f966-0b7e-5479-93f5-d6e731b2129d"))
+  (global_label "IN_P"
+    (shape passive)
+    (at 227.33 46.99 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "7cb40415-c97e-5f66-8b29-383386ee34d0")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 227.33 46.99 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 243.84 41.91 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "782a9eff-6fd3-5d62-9283-1c6ddd698089")
+    (property "Reference" "R6"
+      (at 245.872 41.91 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "5.1k"
+      (at 243.84 41.91 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 243.84 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 243.84 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 5.1k 1%"
+      (at 243.84 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Gain = 1 + R6/R7 = 1.51 (+3.6 dB)"
+      (at 243.84 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 243.84 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "e245f3e3-373a-580a-9918-5932ac18983b"))
+    (pin "2"
+      (uuid "2959e85b-a9be-57a8-98a2-e1b0a810e141"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "R6")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 243.84 38.1)
+      (xy 243.84 35.56))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "83fdc391-aba7-55c6-a3b9-a4b2a262719b"))
+  (global_label "IN_BUF"
+    (shape passive)
+    (at 243.84 35.56 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "2f49ca4d-03fc-5e0f-b425-b1b8a19a58a8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 243.84 35.56 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 243.84 45.72)
+      (xy 243.84 48.26))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "67739b0e-cd88-5967-8227-dbf6d13d9fc2"))
+  (global_label "IN_FB"
+    (shape passive)
+    (at 243.84 48.26 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "d08c9c25-be4e-532a-b44b-bbabef89c84b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 243.84 48.26 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 259.08 41.91 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "790b9a0d-3c52-5395-8006-18254fbc59e8")
+    (property "Reference" "C11"
+      (at 259.715 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100pF"
+      (at 259.715 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 259.08 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 259.08 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100pF C0G"
+      (at 259.08 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Rolls off gain above 300 kHz (stability)"
+      (at 259.08 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 259.08 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "f76f8de7-ff35-5f97-9c6f-29b3c9a4aacc"))
+    (pin "2"
+      (uuid "80ecf8c5-c4de-5715-9652-019ce9be024d"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "C11")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 259.08 38.1)
+      (xy 259.08 35.56))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bdb6eb49-2b85-511a-bcce-f9bcc35a0878"))
+  (global_label "IN_BUF"
+    (shape passive)
+    (at 259.08 35.56 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "37b9c6bc-34cd-5ae9-8db5-b703efabaafe")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 259.08 35.56 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 259.08 45.72)
+      (xy 259.08 48.26))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "61a849fe-646a-571d-a2c3-72eb57a2bc5c"))
+  (global_label "IN_FB"
+    (shape passive)
+    (at 259.08 48.26 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "00af05ab-d067-574f-93d9-d90a85c28032")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 259.08 48.26 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 19.05 87.63 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4a308b58-e6af-5c21-bffa-df5e19bcff7c")
+    (property "Reference" "R7"
+      (at 21.082 87.63 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "10k"
+      (at 19.05 87.63 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 19.05 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 19.05 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10k 1%"
+      (at 19.05 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Resistor 0805 1%"
+      (at 19.05 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 19.05 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "1e459578-a941-5622-ba45-77a07c519ae2"))
+    (pin "2"
+      (uuid "aeeb16b1-945b-5ef9-8945-b2d9dc950ca0"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "R7")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 19.05 83.82)
+      (xy 19.05 81.28))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "42127789-936e-591d-b643-a9eb0ee0cbc8"))
+  (global_label "IN_FB"
+    (shape passive)
+    (at 19.05 81.28 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "1701e2e4-993a-5716-9273-3858d842174a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 19.05 81.28 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 19.05 91.44)
+      (xy 19.05 93.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8a85b5a1-1ff0-562d-b9d5-5b2668576ae7"))
+  (global_label "IN_G"
+    (shape passive)
+    (at 19.05 93.98 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "1125d17f-071a-5902-9b14-90de6b4f5b30")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 19.05 93.98 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 35.56 86.36 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "cc213e37-9e33-5471-be0e-0fa348502644")
+    (property "Reference" "C12"
+      (at 36.195 83.82 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10uF"
+      (at 36.195 88.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 35.56 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 35.56 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10uF X7R"
+      (at 35.56 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Gain only for AC: at DC the stage is a follower and stays at VBIAS"
+      (at 35.56 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 35.56 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "9da58839-7a58-5d08-a8f8-0add1ac3528b"))
+    (pin "2"
+      (uuid "a5aefd4b-91b8-5bb5-a768-0eeba445fba0"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "C12")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 35.56 82.55)
+      (xy 35.56 80.01))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ce0d9d78-51fc-5375-b597-9d88dbee4e8b"))
+  (global_label "IN_G"
+    (shape passive)
+    (at 35.56 80.01 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "bfcae66f-9b3e-5e44-813e-329cd9a1bf50")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 35.56 80.01 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 35.56 90.17)
+      (xy 35.56 92.71))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "445793db-afd8-52cd-b114-f984c9a66532"))
+  (global_label "GND"
+    (shape passive)
+    (at 35.56 92.71 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "49d691dc-bf98-5dd8-960a-575e52ade048")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 35.56 92.71 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 52.07 87.63 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "1f7f8411-1dcb-51fa-97dd-9c7e1cb3e15e")
+    (property "Reference" "R8"
+      (at 54.102 87.63 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1k"
+      (at 52.07 87.63 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 52.07 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 52.07 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 1k 1%"
+      (at 52.07 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Anti-alias filter R (72 kHz with C13)"
+      (at 52.07 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 52.07 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "f449be38-e66a-518b-8e1b-ce34397c9ccc"))
+    (pin "2"
+      (uuid "5175d1d5-963f-5baf-9ad5-8cd4d07afb8d"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "R8")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 52.07 83.82)
+      (xy 52.07 81.28))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "afc50935-7481-51aa-ba2c-33fb5dc9ce21"))
+  (global_label "IN_BUF"
+    (shape passive)
+    (at 52.07 81.28 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "9c9b08bd-2b2d-560c-b9c2-0c696ab72e15")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 52.07 81.28 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 52.07 91.44)
+      (xy 52.07 93.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6c620ed5-bd11-59bb-be3f-2412dd380fe3"))
+  (global_label "ADC_AA"
+    (shape passive)
+    (at 52.07 93.98 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "5b369e48-84f5-5b35-9a8f-f83c291e5fc0")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 52.07 93.98 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 67.31 87.63 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "7a2eff0b-be54-5ba8-aca9-f820651e7255")
+    (property "Reference" "C13"
+      (at 67.945 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "2.2nF"
+      (at 67.945 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 67.31 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 67.31 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 2.2nF C0G"
+      (at 67.31 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 67.31 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 67.31 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "499634e9-5ef7-5b76-9407-da7092bbe7c6"))
+    (pin "2"
+      (uuid "18faacf8-985b-5689-99a9-ea9218492c7a"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "C13")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 67.31 83.82)
+      (xy 67.31 81.28))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "35ab5388-9dae-5d66-9626-f669332b3735"))
+  (global_label "ADC_AA"
+    (shape passive)
+    (at 67.31 81.28 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "ee858a80-9b74-5f13-92b8-c9c0f55bc524")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 67.31 81.28 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 67.31 91.44)
+      (xy 67.31 93.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ae6b58f6-f88b-5da2-8910-14762c79effc"))
+  (global_label "GND"
+    (shape passive)
+    (at 67.31 93.98 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "bee5310e-6d58-5089-9f99-c967b11fb985")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 67.31 93.98 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 83.82 87.63 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "52b00568-0aaf-5a38-99e2-ade2cacaaa06")
+    (property "Reference" "C14"
+      (at 84.455 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10uF"
+      (at 84.455 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 83.82 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 83.82 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10uF X7R"
+      (at 83.82 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Blocks VBIAS (4.3 V) from the ADC, which centres itself at 2.5 V"
+      (at 83.82 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 83.82 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "933eb456-e487-5e62-bded-e9903c7cf75b"))
+    (pin "2"
+      (uuid "457e19e0-fff6-50d5-ab63-1524afe892dd"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "C14")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 83.82 83.82)
+      (xy 83.82 81.28))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ca31eb07-714f-5994-b1b8-67bbf790c558"))
+  (global_label "ADC_AA"
+    (shape passive)
+    (at 83.82 81.28 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "15d15b14-50bd-5f2a-ab5c-2c690f3d244d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 83.82 81.28 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 83.82 91.44)
+      (xy 83.82 93.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d1628ae8-4502-5f4b-adf2-94289f233826"))
+  (global_label "ADC_VINL"
+    (shape passive)
+    (at 83.82 93.98 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "e4cd55c0-5740-5e1a-8bda-35a4c5cb6be8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 83.82 93.98 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 100.33 90.17 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "af0bdd3f-b212-57ec-a12c-3fad4dfbf80c")
+    (property "Reference" "C15"
+      (at 100.965 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 100.965 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 100.33 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 100.33 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 1uF X7R"
+      (at 100.33 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Unused right ADC input: AC-grounded so it stays quiet"
+      (at 100.33 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 100.33 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "3275ae9a-1b43-5dd4-a94b-452ad0fbe808"))
+    (pin "2"
+      (uuid "05dba00b-67b2-552e-9e2a-d3943426fc07"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/839c0060-54b8-5a6d-a109-af6d7d104809"
+          (reference "C15")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 100.33 86.36)
+      (xy 100.33 83.82))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4796fc4a-fca7-5a5f-ad41-dc90306d636a"))
+  (global_label "ADC_VINR"
+    (shape passive)
+    (at 100.33 83.82 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "2ca7e38e-de9d-511b-bc11-5d6d37dde50c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 100.33 83.82 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 100.33 93.98)
+      (xy 100.33 96.52))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "78cec6bd-69d8-5e25-b2a9-42cd522a0e38"))
+  (global_label "GND"
+    (shape passive)
+    (at 100.33 96.52 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "ddd5eeb9-7e17-5a62-a02b-372c343bdd99")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 100.33 96.52 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (text "J2 (GUITAR_IN): Wire to the input jack: tip -> 1, sleeve -> 2\nR3 (1M): Pull-down: stops a 'pop' when you plug in\nC9 (100nF): Blocks DC from the guitar side\nR4 (1k): With C10: filters radio interference\nC10 (100pF): Ceramic capacitor\nR5 (1M): Biases the op-amp input to VBIAS; 1 MOhm = what a guitar wants to see\nU3 (OPA1678): Dual audio op-amp, rail-to-rail output. NE5532 fits too (same pins, works on 9 V)\nR6 (5.1k): Gain = 1 + R6/R7 = 1.51 (+3.6 dB)\nC11 (100pF): Rolls off gain above 300 kHz (stability)\nR7 (10k): Resistor 0805 1%\nC12 (10uF): Gain only for AC: at DC the stage is a follower and stays at VBIAS\nR8 (1k): Anti-alias filter R (72 kHz with C13)\nC13 (2.2nF): Ceramic capacitor\nC14 (10uF): Blocks VBIAS (4.3 V) from the ADC, which centres itself at 2.5 V\nC15 (1uF): Unused right ADC input: AC-grounded so it stays quiet"
+    (at 12 116.02 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "784595b0-d67b-5f6d-b114-1790bb863105"))
+  (sheet_instances
+    (path "/"
+      (page "3"))))

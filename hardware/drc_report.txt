@@ -1,0 +1,22 @@
+** Drc report for /home/claude/pedal/hardware/gen/../pedal.kicad_pcb **
+** Created on 2026-10-14 16:48:22 **
+
+** Found 3 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: warning
+    @(0.3000 mm, 0.3000 mm): Zone [GND] on F.Cu
+    @(69.7300 mm, 50.0000 mm): PTH pad 1 [GND] of D5
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: warning
+    @(0.3000 mm, 0.3000 mm): Zone [GND] on F.Cu
+    @(27.6000 mm, 68.0800 mm): PTH pad 3 [GND] of J5
+[starved_thermal]: Thermal relief connection to zone incomplete (zone min spoke count 2; actual 1)
+    Local override; Severity: warning
+    @(0.3000 mm, 0.3000 mm): Zone [GND] on F.Cu
+    @(36.2800 mm, 71.2400 mm): PTH pad 2 [GND] of U6
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

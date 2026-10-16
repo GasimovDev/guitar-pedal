@@ -1,0 +1,64 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * guitar pedal analog stages: input buffer -> adc input, dac output -> output jack
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+v(vbias) = 4.300000e+00
+v(in_p) = 4.300000e+00
+v(in_buf) = 4.299957e+00
+v(out_buf) = 4.299957e+00
+v(vinl) = 2.500000e+00
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 241
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+v9                                         8.6
+vbias                                      4.3
+gtr                                          0
+tip                                          0
+in_ac                                      4.3
+in_p                                       4.3
+xu3a.n1                                4.29996
+in_fb                                  4.29996
+in_buf                                 4.29996
+in_g                                   4.29996
+adc_aa                                 4.29996
+vinl                                       2.5
+vref_adc                                   2.5
+dac                                          0
+dac_f                                        0
+out_ac                                     4.3
+out_p                                      4.3
+xu3b.n1                                4.29996
+out_buf                                4.29996
+out_ac2                                      0
+out_tip                                      0
+b.xu3b.b1#branch                             0
+b.xu3a.b1#branch                   5.42101e-19
+vdac#branch                                  0
+vref#branch                        6.77626e-21
+vgtr#branch                                  0
+v9#branch                             -0.00043
+
+ Reference value :  1.45000e+00
+No. of Data Rows : 10001
+in_buf_max          =  5.777338e+00 at=  1.499252e+00
+in_buf_min          =  2.822561e+00 at=  1.450752e+00
+vinl_pp             =  2.906063e+00 from=  0.000000e+00 to=  0.000000e+00
+out_buf_max         =  5.214589e+00 at=  1.499252e+00
+out_buf_min         =  3.385298e+00 at=  1.450752e+00
+out_pp              =  1.827462e+00 from=  0.000000e+00 to=  0.000000e+00
+ngspice-42 done

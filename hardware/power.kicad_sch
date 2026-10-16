@@ -1,0 +1,2794 @@
+(kicad_sch
+  (version 20230121)
+  (generator eeschema)
+  (uuid "0cfda721-1481-5027-b576-869f0843d4c2")
+  (paper "A4")
+  (title_block
+    (title "Guitar pedal - power")
+    (company "Embedded audio learning project")
+    (rev "A"))
+  (lib_symbols
+    (symbol "Connector_Generic:Conn_01x02"
+      (pin_names
+        (offset 1.016) hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J"
+        (at 0 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "Conn_01x02"
+        (at 0 -5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "connector"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "Connector*:*_1x??_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "Conn_01x02_1_1"
+        (rectangle
+          (start -1.27 -2.413)
+          (end 0 -2.667)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start -1.27 0.127)
+          (end 0 -0.127)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start -1.27 1.27)
+          (end 1.27 -3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (pin passive line
+          (at -5.08 0 0)
+          (length 3.81)
+          (name "Pin_1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 -2.54 0)
+          (length 3.81)
+          (name "Pin_2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:D_Schottky"
+      (pin_numbers hide)
+      (pin_names
+        (offset 1.016) hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "D"
+        (at 0 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "D_Schottky"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "diode Schottky"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Schottky diode"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "D_Schottky_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "D_Schottky_1_1"
+        (pin passive line
+          (at -3.81 0 0)
+          (length 2.54)
+          (name "K"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 3.81 0 180)
+          (length 2.54)
+          (name "A"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:C_Polarized"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0.254))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C_Polarized"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Polarized capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "CP_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "C_Polarized_0_1"
+        (rectangle
+          (start -2.286 0.508)
+          (end 2.286 1.016)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 2.286 -0.508)
+          (end -2.286 -1.016)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline))))
+      (symbol "C_Polarized_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:C"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0.254))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Unpolarized capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "C_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Regulator_Linear:LM78M05_TO252"
+      (pin_names
+        (offset 0.254))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at -3.81 3.175 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "LM78M05_TO252"
+        (at 0 3.175 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+        (at 0 5.715 0)
+        (effects
+          (font
+            (size 1.27 1.27) italic) hide))
+      (property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
+        (at 0 -1.27 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "Voltage Regulator 500mA Positive"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "TO?252*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "LM78M05_TO252_0_1"
+        (rectangle
+          (start -5.08 1.905)
+          (end 5.08 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol "LM78M05_TO252_1_1"
+        (pin power_in line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name "VI"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at 0 -7.62 90)
+          (length 2.54)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_out line
+          (at 7.62 0 180)
+          (length 2.54)
+          (name "VO"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Regulator_Linear:AP2112K-3.3"
+      (pin_names
+        (offset 0.254))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at -5.08 5.715 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "AP2112K-3.3"
+        (at 0 5.715 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+        (at 0 8.255 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+        (at 0 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "linear regulator ldo fixed positive"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "SOT?23?5*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "AP2112K-3.3_0_1"
+        (rectangle
+          (start -5.08 4.445)
+          (end 5.08 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol "AP2112K-3.3_1_1"
+        (pin power_in line
+          (at -7.62 2.54 0)
+          (length 2.54)
+          (name "VIN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at 0 -7.62 90)
+          (length 2.54)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -7.62 0 0)
+          (length 2.54)
+          (name "EN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin no_connect line
+          (at 5.08 0 180)
+          (length 2.54) hide
+          (name "NC"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_out line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name "VOUT"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:FerriteBead"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "FB"
+        (at -3.81 0.635 90)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "FerriteBead"
+        (at 3.81 0 90)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "L ferrite bead inductor filter"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Ferrite bead"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "FerriteBead_0_1"
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 0 -1.2192))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 1.2954))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.7686 0.4064)
+            (xy -1.7018 2.2606)
+            (xy 2.7686 -0.3048)
+            (xy 1.6764 -2.159)
+            (xy -2.7686 0.4064))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "FerriteBead_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "Device:R"
+      (pin_numbers hide)
+      (pin_names
+        (offset 0))
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R"
+        (at 2.032 0 90)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "R"
+        (at 0 0 90)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "R res resistor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Resistor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_fp_filters" "R_*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "R_0_1"
+        (rectangle
+          (start -1.016 -2.54)
+          (end 1.016 2.54)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "R_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))))
+    (symbol "power:PWR_FLAG"
+      (power)
+      (pin_numbers hide)
+      (pin_names
+        (offset 0) hide)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#FLG"
+        (at 0 1.905 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Value" "PWR_FLAG"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_keywords" "flag power"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (property "ki_description" "Special symbol for telling ERC where power comes from"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)) hide))
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line
+          (at 0 0 90)
+          (length 0)
+          (name "pwr"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))))
+  (text "POWER: 9 V in -> protection -> 5 V, 3.3 V and VBIAS (4.3 V)"
+    (at 12 10 0)
+    (effects
+      (font
+        (size 2.5 2.5))
+      (justify left top))
+    (uuid "da3a5686-c4e1-58c0-bdc1-5fe1a9942c64"))
+  (symbol
+    (lib_id "Regulator_Linear:AP2112K-3.3")
+    (at 33.02 29.21 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6c87c8de-9386-5faf-989d-82c0e0ff212c")
+    (property "Reference" "U2"
+      (at 27.94 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "AP2112K-3.3"
+      (at 33.02 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+      (at 33.02 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+      (at 33.02 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "AP2112K-3.3TRG1"
+      (at 33.02 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "5 V -> 3.3 V clean supply for the audio converters"
+      (at 33.02 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 33.02 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "2a153544-89f3-5a7d-a9a5-06f4eec60a18"))
+    (pin "2"
+      (uuid "c4bcbb23-59e2-5dde-8f17-d27181bb78dc"))
+    (pin "3"
+      (uuid "d271c806-97f9-5b34-b232-1b5a5c7314d0"))
+    (pin "4"
+      (uuid "ec1ac5d9-cd82-5673-970f-b6efc50b7c84"))
+    (pin "5"
+      (uuid "c12ce594-2c9a-5486-929b-e2bc162eb8c5"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "U2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 25.4 26.67)
+      (xy 22.86 26.67))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b6c1dc3f-f94d-5e02-9a5c-aab7375bd6a6"))
+  (global_label "+5V"
+    (shape passive)
+    (at 22.86 26.67 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "4d39f652-746d-5792-be0d-1d7a42561f9c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 22.86 26.67 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 33.02 36.83)
+      (xy 33.02 39.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "965249b0-0883-5a5a-ad07-dc3cb6c096b2"))
+  (global_label "GND"
+    (shape passive)
+    (at 33.02 39.37 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "3fb0b523-abbb-53a7-b997-8b32076d9dd5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 33.02 39.37 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 25.4 29.21)
+      (xy 22.86 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9e28f478-b941-5200-b45a-4c527cdaa0ec"))
+  (global_label "+5V"
+    (shape passive)
+    (at 22.86 29.21 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "709419fa-4063-579e-8c64-9c6b53f1940e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 22.86 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (no_connect
+    (at 38.1 29.21)
+    (uuid "7eacc6a2-03f2-5c4b-af65-344773d26b51"))
+  (wire
+    (pts
+      (xy 40.64 26.67)
+      (xy 43.18 26.67))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6287479e-7362-53aa-8ca6-cf0da5df65ec"))
+  (global_label "+3V3A"
+    (shape passive)
+    (at 43.18 26.67 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "243322c1-9d17-5d1a-833d-b63c729cc7c5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 43.18 26.67 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Connector_Generic:Conn_01x02")
+    (at 77.47 29.21 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6ed5aaf2-11f1-5941-92de-0a07849ce25a")
+    (property "Reference" "J1"
+      (at 77.47 26.67 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "9V_DC_IN"
+      (at 77.47 34.29 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+      (at 77.47 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 77.47 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "2.54mm header 1x2"
+      (at 77.47 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Wire to a 2.1 mm DC jack: sleeve -> pin 1 (+9V), centre pin -> pin 2 (GND). Pedal standard = centre negative."
+      (at 77.47 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "HAND"
+      (at 77.47 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "a9ad50d7-42c3-5a29-a125-0ff66de1fe8e"))
+    (pin "2"
+      (uuid "28896a37-e519-5429-a031-091d0f528d18"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "J1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 72.39 29.21)
+      (xy 69.85 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d348813a-7064-5f35-94b4-08b5f27e0e13"))
+  (global_label "+9V_IN"
+    (shape passive)
+    (at 69.85 29.21 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "b086149e-bccd-53fa-979d-828e7d5006a2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 69.85 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 72.39 31.75)
+      (xy 69.85 31.75))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "21842cf8-bee2-582c-af42-8287f970b088"))
+  (global_label "GND"
+    (shape passive)
+    (at 69.85 31.75 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "38989395-a99b-586b-b9d7-fe58acb6aff9")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 69.85 31.75 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:D_Schottky")
+    (at 102.87 29.21 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "22faea3b-ca32-569a-9000-b35bb90ce491")
+    (property "Reference" "D1"
+      (at 102.87 26.67 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "SS34"
+      (at 102.87 31.75 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Diode_SMD:D_SMA"
+      (at 102.87 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 102.87 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "SS34"
+      (at 102.87 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Reverse polarity protection: blocks current if the adapter is wrong"
+      (at 102.87 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 102.87 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "908dae6e-6f61-5933-a407-a028432135bc"))
+    (pin "2"
+      (uuid "38628999-8a20-5897-b328-95edd0958efa"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "D1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 99.06 29.21)
+      (xy 96.52 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6881217a-fb40-5408-88e3-3cec3a5dece5"))
+  (global_label "+9V"
+    (shape passive)
+    (at 96.52 29.21 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "01030aa4-72d0-57ef-a6d9-bd7b485a58f3")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 96.52 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 106.68 29.21)
+      (xy 109.22 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b0e8cf68-1ddd-5b4c-a8e5-069319b8d0b8"))
+  (global_label "+9V_IN"
+    (shape passive)
+    (at 109.22 29.21 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "a78c8250-010b-5ca3-b5cd-8da7bfede783")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 109.22 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C_Polarized")
+    (at 130.81 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "72fe2560-8c95-58cc-8055-a56d56e9ea2d")
+    (property "Reference" "C1"
+      (at 131.445 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100uF 25V"
+      (at 131.445 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+      (at 130.81 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 130.81 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "100uF 25V SMD electrolytic 6.3x7.7"
+      (at 130.81 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Bulk supply reservoir"
+      (at 130.81 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 130.81 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "79f9e949-9453-581d-9994-1a25ee0cdf89"))
+    (pin "2"
+      (uuid "18a07d60-745e-50b7-86fd-b75ebe4f965d"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 130.81 35.56)
+      (xy 130.81 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ca191d60-bffa-5db9-a6c3-d75bb6ba1d56"))
+  (global_label "+9V"
+    (shape passive)
+    (at 130.81 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "8aff87d8-e19e-5d71-acbb-f3da355abc3e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 130.81 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 130.81 43.18)
+      (xy 130.81 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "72327448-34c4-531f-875c-0ef93d17882d"))
+  (global_label "GND"
+    (shape passive)
+    (at 130.81 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "57db73d1-fd2c-5804-8d34-cdca43d7bb63")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 130.81 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 147.32 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6e9b7828-9fc9-5496-9e28-c97edd685d14")
+    (property "Reference" "C2"
+      (at 147.955 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 147.955 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 147.32 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 147.32 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100nF X7R"
+      (at 147.32 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 147.32 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 147.32 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "1d12ba49-a988-5e6e-bd9f-1529e3f8b403"))
+    (pin "2"
+      (uuid "69aa8202-5d49-5b02-87f2-5b624df47f6f"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 147.32 35.56)
+      (xy 147.32 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "62bccaaa-5b29-5d49-bb5f-cd7dce08e234"))
+  (global_label "+9V"
+    (shape passive)
+    (at 147.32 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "e8fcf027-9a48-5283-a02b-01a73db708ab")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 147.32 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 147.32 43.18)
+      (xy 147.32 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c92be73b-60dc-5093-9f8e-00203a6b35e2"))
+  (global_label "GND"
+    (shape passive)
+    (at 147.32 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "5b581fbf-d77e-549d-8d56-ce8f9d400867")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 147.32 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Regulator_Linear:LM78M05_TO252")
+    (at 176.53 29.21 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "be602941-5aab-51f8-b4ab-cd0d4509704d")
+    (property "Reference" "U1"
+      (at 172.72 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "L78M05"
+      (at 176.53 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+      (at 176.53 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
+      (at 176.53 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "L78M05CDT-TR"
+      (at 176.53 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "9 V -> 5 V regulator, 500 mA"
+      (at 176.53 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 176.53 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "a7f558b6-c2ea-56d5-8ea5-cb6b8108144d"))
+    (pin "2"
+      (uuid "1218a95a-1698-5c5e-9abe-0627183c11cf"))
+    (pin "3"
+      (uuid "d1a71583-27f1-5792-9661-a4580a6289f6"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "U1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 168.91 29.21)
+      (xy 166.37 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d0b08e0f-77e3-5f6d-9b01-1dfe1292354b"))
+  (global_label "+9V"
+    (shape passive)
+    (at 166.37 29.21 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "1434abc1-d187-568a-bb2a-ff0738408ec8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 166.37 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 176.53 36.83)
+      (xy 176.53 39.37))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5fb03389-1276-5ffa-9012-1d2a665fe5bb"))
+  (global_label "GND"
+    (shape passive)
+    (at 176.53 39.37 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "fcc0c540-f3e8-577b-8752-5e35d3cebe20")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 176.53 39.37 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 184.15 29.21)
+      (xy 186.69 29.21))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7e63e463-a71f-5ec6-b612-3c72dc25c2b0"))
+  (global_label "+5V"
+    (shape passive)
+    (at 186.69 29.21 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "70e813aa-505b-56e4-964d-bade24157c02")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 186.69 29.21 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 205.74 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2a46ce1f-1fdd-5a17-a21b-f734831f7bf6")
+    (property "Reference" "C3"
+      (at 206.375 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 206.375 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 205.74 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 205.74 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 1uF X7R"
+      (at 205.74 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Regulator input cap"
+      (at 205.74 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 205.74 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "84e654f0-cf37-500e-b0c6-9c89e26bee13"))
+    (pin "2"
+      (uuid "016e0e2e-ccbb-5931-b173-c29b6d95fd54"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 205.74 35.56)
+      (xy 205.74 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "91b46e79-c530-58d1-a8ce-8fd2dd03496b"))
+  (global_label "+9V"
+    (shape passive)
+    (at 205.74 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "83329682-0b5d-5015-ab60-50a89600a513")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 205.74 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 205.74 43.18)
+      (xy 205.74 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "099383ce-3cc1-577f-b97e-475c52fd5ed5"))
+  (global_label "GND"
+    (shape passive)
+    (at 205.74 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "0acfa67f-c045-52eb-b91d-fe452c068b41")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 205.74 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 222.25 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ddbac39c-e39b-557a-9ac6-0f2885587536")
+    (property "Reference" "C4"
+      (at 222.885 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10uF"
+      (at 222.885 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 222.25 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 222.25 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10uF X7R"
+      (at 222.25 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Regulator output cap"
+      (at 222.25 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 222.25 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "2e1d0507-e4c5-5d7b-a587-62fb124cb74f"))
+    (pin "2"
+      (uuid "fd584c20-e5d7-5895-b398-ca53246e0d47"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 222.25 35.56)
+      (xy 222.25 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "cddc7468-9205-53a1-bbfe-e853725fd154"))
+  (global_label "+5V"
+    (shape passive)
+    (at 222.25 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "d6342294-9837-534b-ad91-9f826d9f8b04")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 222.25 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 222.25 43.18)
+      (xy 222.25 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d18b1e55-8aea-5328-97a0-9bcacf956f95"))
+  (global_label "GND"
+    (shape passive)
+    (at 222.25 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "2edf5ae0-0524-5baf-af0b-28f82fa35f08")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 222.25 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 237.49 39.37 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "d1c62404-7db9-54a2-9875-918e9e03e9e1")
+    (property "Reference" "C5"
+      (at 238.125 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "100nF"
+      (at 238.125 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 237.49 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 237.49 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 100nF X7R"
+      (at 237.49 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 237.49 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 237.49 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "974d6d98-713b-50a6-b8ac-bb17dc7f6841"))
+    (pin "2"
+      (uuid "a83c02aa-9cd4-5440-aaf6-e23830c3f2b8"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C5")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 237.49 35.56)
+      (xy 237.49 33.02))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "85d72157-48f1-5382-ac41-ce6e2f3c4dcb"))
+  (global_label "+5V"
+    (shape passive)
+    (at 237.49 33.02 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "cb4acdef-4898-51a1-8c19-7a216da51833")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 237.49 33.02 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 237.49 43.18)
+      (xy 237.49 45.72))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5753f54b-ee88-554d-b3d8-83cb5fcc3dae"))
+  (global_label "GND"
+    (shape passive)
+    (at 237.49 45.72 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "75c3c647-277b-5275-9836-258ca30bd86d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 237.49 45.72 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:D_Schottky")
+    (at 33.02 68.58 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "304882cc-d921-51bb-abb6-160039472c4a")
+    (property "Reference" "D2"
+      (at 33.02 66.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "SS14"
+      (at 33.02 71.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Diode_SMD:D_SMA"
+      (at 33.02 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 33.02 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "SS14"
+      (at 33.02 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Feeds the Black Pill 5V pin. Stops USB power flowing back into our 5 V rail"
+      (at 33.02 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 33.02 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "57cf6382-164b-5e10-aaeb-8bae57074960"))
+    (pin "2"
+      (uuid "a23fe345-8047-5f90-81ff-e47e5e6ef8fc"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "D2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 29.21 68.58)
+      (xy 26.67 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ff742ca8-b2ba-5716-8b48-dca1b801053d"))
+  (global_label "+5V_MCU"
+    (shape passive)
+    (at 26.67 68.58 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "cc723050-bd9f-5728-a7b1-c0b2d73962f0")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 26.67 68.58 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 36.83 68.58)
+      (xy 39.37 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f58a23ef-19b8-5763-876f-4e0b624b284a"))
+  (global_label "+5V"
+    (shape passive)
+    (at 39.37 68.58 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "55bf1c4d-931f-5687-8b22-02045584f058")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 39.37 68.58 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 58.42 77.47 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "102d4740-1a4f-55bf-8526-5d52109ff23e")
+    (property "Reference" "C6"
+      (at 59.055 74.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "1uF"
+      (at 59.055 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 58.42 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 58.42 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 1uF X7R"
+      (at 58.42 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 58.42 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 58.42 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "4815301a-407d-5efd-ac2a-a386877b9fd6"))
+    (pin "2"
+      (uuid "cf8871bb-e64f-5a42-b509-7670f5b16fa0"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C6")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 58.42 73.66)
+      (xy 58.42 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "40307352-796f-5fac-8a71-65f968b0a404"))
+  (global_label "+5V"
+    (shape passive)
+    (at 58.42 71.12 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "f96a729f-daf9-5c3e-9b7a-a3babde3bdaa")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 58.42 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 58.42 81.28)
+      (xy 58.42 83.82))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ae9c8ccc-1aaf-5ffa-a191-63f143bed3b5"))
+  (global_label "GND"
+    (shape passive)
+    (at 58.42 83.82 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "0c756e7a-bad1-5e95-8e4f-df043613b365")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 58.42 83.82 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C")
+    (at 74.93 80.01 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "0e814d65-6661-566e-8cf7-d076fcbe813c")
+    (property "Reference" "C7"
+      (at 75.565 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "10uF"
+      (at 75.565 82.55 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 74.93 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 74.93 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10uF X7R"
+      (at 74.93 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ceramic capacitor"
+      (at 74.93 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 74.93 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "5d892766-2084-5c6b-a32d-985c06a8bb5f"))
+    (pin "2"
+      (uuid "40b9ae3a-731b-51bd-9bab-57e1b940a464"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C7")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 74.93 76.2)
+      (xy 74.93 73.66))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b33b8ca6-a144-5a62-9f9e-6876d9408b60"))
+  (global_label "+3V3A"
+    (shape passive)
+    (at 74.93 73.66 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "08009952-2bbd-53ab-9f09-72bfed040bf9")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 74.93 73.66 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 74.93 83.82)
+      (xy 74.93 86.36))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "946a5fee-763f-582a-9077-f985c09c433f"))
+  (global_label "GND"
+    (shape passive)
+    (at 74.93 86.36 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "d5bac6e2-85d9-567a-935d-8c3cd8934552")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 74.93 86.36 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:FerriteBead")
+    (at 90.17 77.47 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "21a3887a-48ce-5899-a2e8-12a72e3a5528")
+    (property "Reference" "FB1"
+      (at 86.36 76.835 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "600R@100MHz"
+      (at 93.98 77.47 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+      (at 90.17 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 90.17 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "BLM21PG601SN1D"
+      (at 90.17 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Ferrite bead: keeps digital noise off the ADC's analog 5 V"
+      (at 90.17 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 90.17 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "648dd841-9bea-5199-9b75-ddf8a31f0a16"))
+    (pin "2"
+      (uuid "2466327f-e590-5658-bb4a-d0acb9ed76c5"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "FB1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 90.17 73.66)
+      (xy 90.17 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "93752251-7679-5d43-9dc1-616b262ea930"))
+  (global_label "+5V"
+    (shape passive)
+    (at 90.17 71.12 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "cdffd6dd-22ad-5d84-be65-5c70956b82c2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 90.17 81.28)
+      (xy 90.17 83.82))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f59efb94-1324-5c79-832c-10691d567884"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 90.17 83.82 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "38e6de59-6463-5828-8211-e2c9c7ec71cf")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 83.82 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 106.68 77.47 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f41e1f3b-28ef-575d-9714-06cb54b479ef")
+    (property "Reference" "R1"
+      (at 108.712 77.47 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "10k"
+      (at 106.68 77.47 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 106.68 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 106.68 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10k 1%"
+      (at 106.68 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Bias divider top"
+      (at 106.68 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 106.68 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "fb32cfc6-c73f-5cc8-a989-3e6d681c57ff"))
+    (pin "2"
+      (uuid "f279a29e-fc5f-52d9-96ed-ad6ee7421c04"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "R1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 106.68 73.66)
+      (xy 106.68 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c8dfb2a2-3442-5a83-be70-bc0c762bfd43"))
+  (global_label "+9V"
+    (shape passive)
+    (at 106.68 71.12 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "8db5ac7d-5b1a-5bf8-b137-1387b3de6519")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 106.68 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 106.68 81.28)
+      (xy 106.68 83.82))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "15550101-9416-53cd-b1eb-ec3fae9eaac6"))
+  (global_label "VBIAS"
+    (shape passive)
+    (at 106.68 83.82 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8ef8cfdb-6447-53bf-b0a4-f090a82f76bd")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 106.68 83.82 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:R")
+    (at 123.19 80.01 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "8e491ff4-c664-5522-a86a-b0780c30ebd8")
+    (property "Reference" "R2"
+      (at 125.222 80.01 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "10k"
+      (at 123.19 80.01 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 123.19 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 123.19 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "0805 10k 1%"
+      (at 123.19 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Bias divider bottom"
+      (at 123.19 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 123.19 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "b3f19c44-8a19-5f3c-a23e-b1f98cb1f64d"))
+    (pin "2"
+      (uuid "e69c5b65-e914-59da-861e-d5b7583066c4"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "R2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 123.19 76.2)
+      (xy 123.19 73.66))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "934c7017-239d-5b94-bdf6-ea1dc22a1868"))
+  (global_label "VBIAS"
+    (shape passive)
+    (at 123.19 73.66 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "8026a13a-4639-56ba-ad01-b0da245a2043")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 123.19 73.66 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 123.19 83.82)
+      (xy 123.19 86.36))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "cf7dbb78-0170-5805-9c95-7763bacf7bdf"))
+  (global_label "GND"
+    (shape passive)
+    (at 123.19 86.36 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "a37eee41-05bd-504d-9929-2c3c85074ad3")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 123.19 86.36 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "Device:C_Polarized")
+    (at 138.43 80.01 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "dff95983-23e0-5561-bd53-5e8108c538cd")
+    (property "Reference" "C8"
+      (at 139.065 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "47uF 25V"
+      (at 139.065 82.55 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+      (at 138.43 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 138.43 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "MPN" "47uF 25V SMD electrolytic 6.3x5.4"
+      (at 138.43 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Description" "Makes VBIAS a quiet 'AC ground' at half supply"
+      (at 138.43 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Assembly" "FACTORY"
+      (at 138.43 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "b3524bc7-de7c-59b3-b004-bbf9618b69c9"))
+    (pin "2"
+      (uuid "6d1d981d-31f8-535c-9dde-d6748edc28f4"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "C8")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 138.43 76.2)
+      (xy 138.43 73.66))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b012429b-b551-5440-a91c-833d1e24cc9e"))
+  (global_label "VBIAS"
+    (shape passive)
+    (at 138.43 73.66 90)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "1af62701-933c-5c7a-a886-d47416bc35ae")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 138.43 73.66 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (wire
+    (pts
+      (xy 138.43 83.82)
+      (xy 138.43 86.36))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "94fa420d-8292-50a7-8c80-58c7c3485c2a"))
+  (global_label "GND"
+    (shape passive)
+    (at 138.43 86.36 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "dbe2b111-5982-510d-820b-4939f1e66972")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 138.43 86.36 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 154.94 68.58 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "9334c86f-daa5-5761-ae7c-f7080955df0f")
+    (property "Reference" "#FLG1"
+      (at 154.94 66.675 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 154.94 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 154.94 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 154.94 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "129110e5-b171-54fd-9a4c-cf5ee3e3fef7"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "#FLG1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 154.94 68.58)
+      (xy 154.94 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "05264cf0-c526-5d0b-9247-644e2ef8bf36"))
+  (global_label "+9V"
+    (shape passive)
+    (at 154.94 71.12 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "3aaf2104-898e-56b8-8848-bda1744875f2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 154.94 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 170.18 68.58 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "5fb8804d-b967-5b8c-8ee1-c7874d7c6e14")
+    (property "Reference" "#FLG2"
+      (at 170.18 66.675 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 170.18 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 170.18 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 170.18 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "3d74b7f6-d399-58b9-8057-a42cd2b8a355"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "#FLG2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 170.18 68.58)
+      (xy 170.18 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "128dad5b-79e4-5291-9529-21b5a058634f"))
+  (global_label "GND"
+    (shape passive)
+    (at 170.18 71.12 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "e77f41e8-b9d3-55ce-98ff-a69de1596022")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 170.18 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 186.69 68.58 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "bfb8551f-4746-5478-a5bb-bc0f4d9f6040")
+    (property "Reference" "#FLG3"
+      (at 186.69 66.675 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 186.69 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 186.69 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 186.69 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "ffd514cf-0e3d-5924-bb2e-8aac4d73a9bc"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "#FLG3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 186.69 68.58)
+      (xy 186.69 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b75d9070-44b5-56d7-b275-872fb7257143"))
+  (global_label "+5VA"
+    (shape passive)
+    (at 186.69 71.12 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "d6a7b155-1d85-5369-b54a-17e718d14b7b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 186.69 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 203.2 68.58 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "ecd1fc07-3e37-572e-ada6-4150e63cbd69")
+    (property "Reference" "#FLG4"
+      (at 203.2 66.675 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 203.2 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 203.2 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 203.2 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "a5139278-54fb-5aec-b855-b2a0a4d92f83"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "#FLG4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 203.2 68.58)
+      (xy 203.2 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2ba005bb-101f-559d-acd7-1d3c5b08f39d"))
+  (global_label "+9V_IN"
+    (shape passive)
+    (at 203.2 71.12 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "27ca64e3-2173-5b2f-a9ad-65c6fb5444be")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 203.2 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 218.44 68.58 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "614f316d-45b0-56b7-bfb7-cf90c8d38e1c")
+    (property "Reference" "#FLG5"
+      (at 218.44 66.675 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 218.44 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 218.44 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 218.44 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "cd41abaa-6719-5c5c-bc30-e9fdcef868ee"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "#FLG5")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 218.44 68.58)
+      (xy 218.44 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "921552cc-d3f6-532b-acce-2f1767492560"))
+  (global_label "+5V_MCU"
+    (shape passive)
+    (at 218.44 71.12 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "04dba96a-676c-51ad-9d14-9037b969d086")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 218.44 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 234.95 68.58 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "911ad218-9ed5-54e2-a1ff-737c383c226b")
+    (property "Reference" "#FLG6"
+      (at 234.95 66.675 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Value" "PWR_FLAG"
+      (at 234.95 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 234.95 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (property "Datasheet" "~"
+      (at 234.95 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)) hide))
+    (pin "1"
+      (uuid "f96062e9-0863-5ae0-9e6e-423448d15086"))
+    (instances
+      (project "pedal"
+        (path "/93f17a6a-c904-5484-ad6e-34ddf97f6b66/0cfda721-1481-5027-b576-869f0843d4c2"
+          (reference "#FLG6")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 234.95 68.58)
+      (xy 234.95 71.12))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "961e2ee6-7697-56a2-afbf-15ed3e534d47"))
+  (global_label "+3V3_MCU"
+    (shape passive)
+    (at 234.95 71.12 270)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "6487704d-fb2c-522f-b1d1-42972b2cfa54")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 234.95 71.12 0)
+      (effects
+        (font
+          (size 1 1)) hide)))
+  (text "J1 (9V_DC_IN): Wire to a 2.1 mm DC jack: sleeve -> pin 1 (+9V), centre pin -> pin 2 (GND). Pedal standard = centre negative.\nD1 (SS34): Reverse polarity protection: blocks current if the adapter is wrong\nC1 (100uF 25V): Bulk supply reservoir\nC2, C5 (100nF): Ceramic capacitor\nU1 (L78M05): 9 V -> 5 V regulator, 500 mA\nC3 (1uF): Regulator input cap\nC4 (10uF): Regulator output cap\nD2 (SS14): Feeds the Black Pill 5V pin. Stops USB power flowing back into our 5 V rail\nU2 (AP2112K-3.3): 5 V -> 3.3 V clean supply for the audio converters\nC6 (1uF): Ceramic capacitor\nC7 (10uF): Ceramic capacitor\nFB1 (600R@100MHz): Ferrite bead: keeps digital noise off the ADC's analog 5 V\nR1 (10k): Bias divider top\nR2 (10k): Bias divider bottom\nC8 (47uF 25V): Makes VBIAS a quiet 'AC ground' at half supply"
+    (at 12 102.4 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left top))
+    (uuid "5ffae172-b0dd-573a-b5db-52f826a92eba"))
+  (sheet_instances
+    (path "/"
+      (page "2"))))

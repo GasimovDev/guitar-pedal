@@ -1,0 +1,68 @@
+* Guitar pedal analog stages: input buffer -> ADC input, DAC output -> output jack
+* Run: ngspice -b analog.cir   (or: python3 run_sim.py, which also plots)
+
+* --- simple single-supply op-amp model (OPA1678-like: GBW ~10 MHz, rail-to-rail out) ---
+.subckt OPA inp inn out vcc vee
+G1 0 n1 inp inn 1e-3
+R1 n1 0 1e8
+C1 n1 0 15.9p
+B1 out 0 V = min(max(V(n1), V(vee)+0.05), V(vcc)-0.05)
+.ends
+
+* --- power ---
+V9 v9 0 8.6
+R1 v9 vbias 10k
+R2 vbias 0 10k
+C8 vbias 0 47u
+
+* --- INPUT STAGE (guitar = 1 V peak source with 10k pickup resistance) ---
+Vgtr gtr 0 DC 0 AC 1 SIN(0 1 1k)
+Rpick gtr tip 10k
+R3 tip 0 1Meg
+C9 tip in_ac 100n
+R4 in_ac in_p 1k
+C10 in_p 0 100p
+R5 vbias in_p 1Meg
+XU3A in_p in_fb in_buf v9 0 OPA
+R6 in_buf in_fb 5.1k
+C11 in_buf in_fb 100p
+R7 in_fb in_g 10k
+C12 in_g 0 10u
+R8 in_buf adc_aa 1k
+C13 adc_aa 0 2.2n
+C14 adc_aa vinl 10u
+* PCM1808 input: 60k to its internal 2.5 V reference
+Radc vinl vref_adc 60k
+Vref vref_adc 0 2.5
+
+* --- OUTPUT STAGE (DAC = full scale 2.1 Vrms = 2.97 V peak) ---
+Vdac dac 0 DC 0 AC 1 SIN(0 2.97 1k)
+R10 dac dac_f 470
+C28 dac_f 0 2.2n
+C29 dac_f out_ac 10u
+R11 out_ac out_p 22k
+R12 out_p vbias 10k
+XU3B out_p out_buf out_buf v9 0 OPA
+C30 out_buf out_ac2 10u
+R13 out_ac2 0 100k
+R14 out_ac2 out_tip 1k
+* guitar amp input
+Ramp out_tip 0 1Meg
+
+.control
+op
+print v(vbias) v(in_p) v(in_buf) v(out_buf) v(vinl)
+ac dec 40 1 1Meg
+wrdata ac_in.txt vdb(vinl)
+wrdata ac_out.txt vdb(out_tip)
+tran 5u 1.5 1.45
+wrdata tran.txt v(gtr) v(in_buf) v(vinl) v(dac) v(out_buf) v(out_tip)
+meas tran in_buf_max MAX v(in_buf)
+meas tran in_buf_min MIN v(in_buf)
+meas tran vinl_pp PP v(vinl)
+meas tran out_buf_max MAX v(out_buf)
+meas tran out_buf_min MIN v(out_buf)
+meas tran out_pp PP v(out_tip)
+quit
+.endc
+.end
